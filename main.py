@@ -9,7 +9,7 @@ import auto_generation
 
 conn = sqlite3.connect("database.db", check_same_thread=False)
 c = conn.cursor()
-
+print(1)
 from PyQt6 import QtCore, QtGui, QtWidgets
 
 class Ui_Form(object):
